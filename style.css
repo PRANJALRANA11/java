@@ -1,0 +1,35 @@
+ body{ 
+    color: rgb(139, 200, 134);
+    background-color: bisque;
+     font-style: italic ;
+     font-display: swap;
+     } 
+     #Table{
+        
+        border-color: rgb(247, 143, 228);
+        background-color: orange;
+        border-width: 5px;
+        border-style: solid;
+        border-radius: 5px;
+     }
+     .title{
+     font-size: 50px;
+     font-weight:bold;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     padding: 30px 40px 20px 10px;
+     background-color: rgb(235, 162, 98);
+     margin: 30px 20px 40px 10px;
+     border:5px solid red ;
+     
+     }
+
+     h1{
+      font-size: 50px;
+     font-style:italic;
+     
+     padding: 30px 40px 20px 10px;
+     background-color: rgb(235, 162, 98);
+     margin: 30px 20px 40px 10px;
+     border:5px solid red ;
+     box-sizing: border-box;
+     }
