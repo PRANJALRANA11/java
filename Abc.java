@@ -40,20 +40,67 @@
 							}
 						}System.out.println(ans);
 					}
+						static void maxofj_i(int arr[]){
+							int ans=0;
+							for(int i=0;i<arr.length;i++){
+								for(int j=1;j<arr.length;j++){
+									if(arr[i]<=arr[j]&&i<j){
+										int max=j-i;
+										
+										if(max>ans){
+											ans=max;
+										}
+									}
+								}
+
+							}System.out.println(ans);
+						}
+							static void majority(int arr[]){
+								int n=arr.length,count=0;
+								for(int i=0;i<arr.length;i++){
+									for(int j=1;j<arr.length;j++){
+										if(arr[i]==arr[j]){
+											 count++;}
+											if(count>n){             
+												count=arr[i];
+												System.out.println(count);
+									}	
+									}
+								    }if(count==0)System.out.println("-1");
+								
+							}
+
+							static void addSubarray(int subarr[]){
+								int target=9;
+								for(int i=0;i<subarr.length;i++){
+									for(int j =0;j<subarr.length;j++){
+										if(subarr[i]+subarr[j]==target&&i<j)System.out.println(i+" ,"+j);
+									}
+									
+								}
+							}
+							static void addsum(int arr[]){
+								int sum=0;
+								for(int i=0;i<arr.length;i++){
+									for(int j =1;j<arr.length;j++){
+										int add=arr[i]+arr[j];
+										if(sum<add){
+											sum=add;
+										}
+									}
+								}System.out.println(sum);
+							}
 						public static void main(String[] args) {
 							int row=3;
 							int col=3;
 							int array[][]={{0,0,1},{0,1,1},{1,1,1}};
-							
-						
-
-								
 							Scanner sc = new Scanner(System.in);
 							// int n = sc.nextInt();
-							int arr[]={1,2,3,4,5};
+							int arr[]={1,2,6,3,3};
 							int idx=0;
 							
-							nof_1(array,row,col);
+							addsum(arr);
 							// System.out.println("2 raise to the power "+n+" is : "+abc);
-					}
+							
+						}
 					}
