@@ -1,8 +1,14 @@
  body{ 
     color: rgb(139, 200, 134);
     background-color: bisque;
+    margin:auto;
      font-style: italic ;
      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     float:center;
+     width:500px;
+     text-align: center;
+     border-radius: 25px;
+     
      } 
      #Table{
         
@@ -11,6 +17,8 @@
         border-width: 5px;
         border-style: solid;
         border-radius: 5px;
+        border-radius: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
      }
      .title{
      font-size: 50px;
@@ -21,11 +29,19 @@
      margin: 30px 20px 40px 10px;
      border:5px solid red ;
      background-image: url(D:\pranjal\java\ADOCATO-logos.jpeg);
+     border-radius: 25px;
      
+     
+     }
+     .btn{
+      background-color: rgb(251, 255, 255);
+      cursor: pointer;
+      text-decoration:none;
+      border-radius: 25px;
      }
 
      h1{
-      font-size: 50px;
+      font-size: 20px;
      font-style:italic;
      
      padding: 30px 40px 20px 10px;
@@ -34,8 +50,12 @@
      border:5px solid red ;
      box-sizing: border-box;
      background-size:cover;
+     border-radius: 25px;
      }
-     body{
-      background-color: black;}
-      h2{background-color: aqua;}
+     #textar{width: 500px;
+   border-radius: 25px;}
+     .btn:hover{
+      color: rgb(253, 6, 6);}
+      btn.visited{
+         color: yellow;}
    
