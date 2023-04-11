@@ -89,18 +89,20 @@
 										}
 									}
 								}System.out.println(sum);
+							}static int arraylist(int arr[],int target,int idx){
+								int ans[]=new int[arr.length];
+								if(idx>=arr.length)return ans();
 							}
+							
 						public static void main(String[] args) {
-							int row=3;
+							int target=3;
 							int col=3;
-							int array[][]={{0,0,1},{0,1,1},{1,1,1}};
+							// int array[][]=new int[row][col];
 							Scanner sc = new Scanner(System.in);
 							// int n = sc.nextInt();
-							int arr[]={1,2,6,3,3};
+							int  arr[]={1,2,6,3,3};
 							int idx=0;
-							
-							addsum(arr);
-							// System.out.println("2 raise to the power "+n+" is : "+abc);
+							int array=arraylist(arr,target,idx);
 							
 						}
 					}

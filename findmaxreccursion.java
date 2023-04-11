@@ -1,3 +1,4 @@
+
 public class findmaxreccursion {
     static int  max(int[] arr, int idx){
     // base case
@@ -9,7 +10,7 @@ public class findmaxreccursion {
     // recurence relation
     
     int smallinarray= max(arr,idx+1);			
-    return Maths.max(arr[idx],smallinarray);
+    return Math.max(arr[idx],smallinarray);
 }	
 
     
