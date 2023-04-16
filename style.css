@@ -8,17 +8,25 @@
      text-align: center;
      border-radius: 250px;
      background-image: url('No pain no gain, body, bodybuilding, fitness, gym, inspiration, life, motivation, positive, HD phone.jpg');
-     margin: auto;
+     flex-wrap: wrap;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     flex-basis: 300px;
+   
+     
      } 
      #Table{
         
-        /* border-color: rgb(247, 143, 228); */
-        /* background-color: orange; */
-        /* border-width: 5px;
+        border-color: rgb(247, 143, 228);
+        background-color: orange;
+        border-width: 5px;
         border-style: solid;
         border-radius: 5px;
-        border-radius: 25px; */
+        border-radius: 25px; 
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        flex-grow:30px
         
      }
      .title{
@@ -26,24 +34,24 @@
      font-weight:bold;
      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      padding: 30px 40px 20px 10px;
+  
      
-     margin: 30px 20px 40px 10px;
-     /* border:5px solid red ; */
+     border:5px solid red ;
     
     
      border-radius: 25px;
      /* box-sizing: border-box; */
      display: block;
-     display: inline-block;
-     width: 250px;
+     /* display: inline-block; */
+     /* width: 250px; */
      /* position:sticky; */
-     top: 30px;
+     /* top: 30px; */
      /* z-index: -1; */
      
      
      }
      .btn{
-      /* background-color: rgb(251, 255, 255); */
+      background-color: rgb(251, 255, 255);
       cursor: pointer;
       text-decoration:none;
       border-radius: 25px;
@@ -54,21 +62,22 @@
      font-style:italic;
      
      padding: 30px 40px 20px 10px;
-     /* background-color: rgb(235, 162, 98); */
-      display:  inline-block;
-     margin: 30px 20px 40px 10px;
+     
+      background-color: rgb(235, 16 
+     /* margin: 30px 20px 40px 10px; */
      border:5px solid red ;
-     box-sizing: border-box;
-     background-size:cover;
+     /* box-sizing: border-box; */
+     /* background-size:cover; */
      border-radius: 25px;
      
      }
-     #textar{width: 500px;
+     #textar{
    border-radius: 25px;}
-     .btn:hover{
+     .btn:hover{width: auto;
       color: rgb(253, 6, 6);}
       btn.visited{
-         color: yellow;}
+         color: yellow;
+      }
          
 
    
