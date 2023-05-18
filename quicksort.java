@@ -1,4 +1,4 @@
-class HelloWorld {
+class Quicksort{
     static int partition(int []arr,int st,int end){
         int pivot=arr[st];
         int cnt=0;
